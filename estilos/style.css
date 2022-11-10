@@ -15,7 +15,7 @@ nav .mobile {
 }
 
 nav .logo{
-    min-width: 250px;
+    min-width: 10px;
 }
 
 nav a{
@@ -44,4 +44,19 @@ nav .desktop .secondary{
 
 nav .desktop .secondary.mini{
     display: none;
+}
+
+@media  screen and (max-widrh: 662.67px) {
+    
+    nav .logo{
+        min-width: 100px;
+    }
+
+    nav .secondary.full{
+        display: none;        
+    }
+
+    nav .secondary.mini{
+        display: block !important;
+    }
 }
